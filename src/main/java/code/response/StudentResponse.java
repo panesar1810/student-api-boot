@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import code.entity.Student;
+import code.service.StudentService;
 import lombok.AllArgsConstructor;
 
 @RestController

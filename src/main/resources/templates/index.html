@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Rest API</title>
+	<link href="https://fonts.googleapis.com/css2?family=Abel&family=Nunito&family=Open+Sans&family=Roboto&family=Source+Sans+Pro&family=Ubuntu&display=swap" rel="stylesheet">
+	<style>
+		body {
+			margin: 10px 250px;
+			font-family: 'nunito';
+		}
+		h1 {
+			color: #4381f5;
+		}
+		table {
+			margin-top: 30px;
+			font-size: 1.2rem;
+		}
+		table tr td {
+			padding: 10px 40px 10px 0;
+		}
+		code {
+			background-color: rgb(223, 228, 233);
+			padding: 5px 10px;
+			border-radius: 5px;
+		}
+		a {
+			text-decoration: none;
+			color: #4381f5;
+		}
+	</style>
+</head>
+<body>
+	<h1>Simple Rest API Demonstration using Spring Boot 2.0</h1>
+	<div>
+		<table>
+			<tr>
+				<td><code>GET</code> request</td>
+				<td><a href="https://student-api-boot.herokuapp.com/students/">/students</a></td>
+				<td>Get all students</td>
+			</tr>
+			<tr>
+				<td><code>POST</code> request</td>
+				<td><a href="https://student-api-boot.herokuapp.com/students/">/students</a></td>
+				<td>Save a student</td>
+			</tr>
+			<tr>
+				<td><code>PUT</code> request</td>
+				<td><a href="https://student-api-boot.herokuapp.com/students/">/students/${id}</a></td>
+				<td>Update student</td>
+			</tr>
+			<tr>
+				<td><code>DELETE</code> request</td>
+				<td><a href="https://student-api-boot.herokuapp.com/students/">/students/${id}</a></td>
+				<td>Delete student</td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>
