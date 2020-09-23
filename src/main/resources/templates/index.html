@@ -29,6 +29,9 @@
 			text-decoration: none;
 			color: #4381f5;
 		}
+		p.fields p {
+			margin-bottom: 10px;
+		}
 	</style>
 </head>
 <body>
@@ -56,6 +59,18 @@
 				<td>Delete student</td>
 			</tr>
 		</table>
+	</div>
+	<div>
+		<p>Must include these fields in request body: </p>
+		<p class="fields">
+			<p><code>LONG</code> studentId (when updating student) <br></p>
+			<p><code>STRING</code> firstName <br></p>
+			<p><code>STRING</code> lastName <br></p>
+			<p><code>STRING</code> course <br></p>
+			<p><code>STRING</code> program <br></p>
+			<p><code>STRING</code> age <br></p>
+			<p><code>STRING</code> gender <br></p>
+		</p>
 	</div>
 </body>
 </html>
